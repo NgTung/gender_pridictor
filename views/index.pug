@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  h1= title
+
+  div.container
+    div.panel.panel-default
+      div.panel-heading SML Prediction
+      div.panel-body
+        form.form-horizontal(method='POST' action='')
+          div.form-group.has-feedback
+            label.col-sm-2.control-label(for='name' style='text-align:inherit') Full Name:
+            div.col-sm-6.btn-group
+              div
+                input#name.searchinput.form-control.hasclear(type='text', placeholder='Your name' name='name' value=(undefined===name ? '' : name))
+                span#searchclear.searchclear.glyphicon.glyphicon-remove-circle
+            button.btn.btn-primary(type='submit') Submit
+            div.input-group.col-sm-3(style="padding-top:20px;")
+            if gender
+              div.alert You are&nbsp;
+                a.alert-link #{gender}
