@@ -1,21 +1,25 @@
-Gender predictor by Vietnamese name
-=================================
+Gender Predictor by Vietnamese name
+===================================
 
-This is a small application using Machine Learning by Google Tensorflow with NodeJS wrapper
+A funny application to predict your gender by your vietnammese name. This app using Google Tensorflow with NodeJS wrapper.
 
-## Prepare:
+## Prepare dependencies:
 
-- Install npm, express, python, tensorflow on your workstation
+- Install npm, express framework, python 3.x, tensorflow on your workstation
 
 ## Install & Run:
-
-Commands:
+Install Tensorflow on Mac:
+```bash
+$ pip3 install --user --upgrade tensorflow
+$ python3 -c "import tensorflow as tf; print(tf.reduce_sum(tf.random.normal([1000, 1000])))" # verify your installation
+```
+Install `npm` and start the application:
 ```bash
 $ sudo npm install
 $ sudo npm start
 ```
-
-Run at `<your_host>:3000`
+Visit at:
+`<your_host>:3000`
 
 ## Dataset
-- Based on 2000 student name of Hanoi UET
+Based on 2000 student name of Hanoi UET
