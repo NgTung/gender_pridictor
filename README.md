@@ -5,20 +5,22 @@ A funny application to predict your gender by your vietnammese name. This app us
 
 ## Prepare dependencies:
 
-- Install npm, express framework, python 3.x, tensorflow on your workstation
+- npm
+- [Express framework](https://expressjs.com/ "Express framework")
+- Python 3.x
 
-## Install & Run:
-Install Tensorflow on Mac:
+## Install & Run the application:
+- Install Tensorflow on Mac:
 ```bash
 $ pip3 install --user --upgrade tensorflow
 $ python3 -c "import tensorflow as tf; print(tf.reduce_sum(tf.random.normal([1000, 1000])))" # verify your installation
 ```
-Install `npm` and start the application:
+- Install `npm` and start the application:
 ```bash
 $ sudo npm install
 $ sudo npm start
 ```
-Visit at:
+- Visit at:
 `<your_host>:3000`
 
 ## Dataset
