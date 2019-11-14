@@ -25,7 +25,7 @@ $ sudo npm start
 ```
 Visit at: `<your_host>:3000`
 
-![Screen Shot](https://raw.githubusercontent.com/NgTung/gender_pridictor/master/screen_shot.png "Screen Shot")
+![Screen Shot](https://raw.githubusercontent.com/NgTung/gender_pridictor/master/screenshot.png "Screen Shot")
 
 ## Dataset
 Based on 2000 student name of Hanoi UET
