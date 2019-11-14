@@ -1,7 +1,7 @@
 Gender Predictor by Vietnamese name
 ===================================
 
-A funny application to predict your gender by your vietnammese name. This app using Google Tensorflow with NodeJS wrapper.
+A funny application to predict your gender by your vietnammese name. This app using Google Tensorflow run on Python and NodeJS is an interface wrapper it.
 
 ## Prepare dependencies:
 
@@ -10,7 +10,7 @@ A funny application to predict your gender by your vietnammese name. This app us
 - Python 3.x
 
 ## Install & Run the application:
-Install Tensorflow on Mac:
+Install Tensorflow on MacOS:
 ```bash
 $ pip3 install --user --upgrade tensorflow
 $ python3 -c "import tensorflow as tf; print(tf.reduce_sum(tf.random.normal([1000, 1000])))" # verify your installation
@@ -20,8 +20,8 @@ Install `npm` and start the application:
 $ sudo npm install
 $ sudo npm start
 ```
-Visit at:
-`<your_host>:3000`
+Visit at: `<your_host>:3000`
+
 ![Screen Shot](https://raw.githubusercontent.com/NgTung/gender_pridictor/master/screen_shot.png "Screen Shot")
 
 ## Dataset
